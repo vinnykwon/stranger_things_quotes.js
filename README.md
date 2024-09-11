@@ -4,7 +4,7 @@ Web-API for [strangerthings-quotes.vercel.app](https://strangerthings-quotes.ver
 ## Example
 ```JavaScript
 async function main() {
-	const { StrangerThingsQuotes } = require("./stranger_things_quotes.js.js")
+	const { StrangerThingsQuotes } = require("./stranger_things_quotes.js")
 	const strangerThingsQuotes = new StrangerThingsQuotes()
 	const randomQuote = await strangerThingsQuotes.getQuote()
 	console.log(randomQuote)
